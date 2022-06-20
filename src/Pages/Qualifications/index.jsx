@@ -1,10 +1,8 @@
-
+import Header from "../../components/header"
 function Qualifications () {
     return (
         <div>
-        <header>
-
-        </header>
+        <Header page="Qualifications"/>
         <section>
 
         </section>

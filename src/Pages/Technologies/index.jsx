@@ -1,10 +1,8 @@
-
+import Header from "../../components/header"
 function Technologies () {
     return (
         <div>
-        <header>
-
-        </header>
+        <Header page="Technologies"/>
         <section>
 
         </section>

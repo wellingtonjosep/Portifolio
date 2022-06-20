@@ -1,10 +1,8 @@
-
-function Home () {
+import Header from "../../components/header"
+function Home() {
     return (
         <div>
-        <header>
-
-        </header>
+        <Header/>
         <section>
 
         </section>
