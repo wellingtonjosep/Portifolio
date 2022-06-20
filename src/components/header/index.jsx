@@ -8,7 +8,7 @@ import { useState } from "react";
 import { AiOutlineBars } from "react-icons/ai"
 
 function Header ({ page }) {
-    const [modal, setModal] = useState(true)
+    const [modal, setModal] = useState(false)
     const history = useHistory()
 
     function redirect () {

@@ -2,10 +2,14 @@ import styled from "styled-components"
 
 export const Container = styled.section`
     position: absolute;
-    height: 100vh;
+    height: 250px;
     width: 120px;
     right: 0px;
-    background-color: #000;
+    opacity: 0.8;
+    z-index: 20;
+    border-radius: 0px 0px 0px 20px;
+    background-color: rgb(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
     
     .button-modal {
         background-color: #000;
@@ -31,8 +35,10 @@ export const Container = styled.section`
     }
 
     .red-modal {
-        border-bottom: 3px solid red;
-        background-color: red;
+        border-bottom: 3px solid #d3d3d3;
+        background-color: #d3d3d3;
+        font-weight: bold;
+        color: #000;
     }
 
     @media (min-width: 900px) {

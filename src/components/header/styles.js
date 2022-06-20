@@ -4,9 +4,6 @@ export const HeaderStyle = styled.header`
     display: flex;
     background: rgb(0, 0, 0);
     height: 80px;
-    box-shadow: 0px 8px 5px 0px rgba(255,255,255,0.75);
-    -webkit-box-shadow: 0px 8px 5px 0px rgba(255,255,255,0.75);
-    -moz-box-shadow: 0px 8px 5px 0px rgba(255,255,255,0.75);
 
     .logo {
         color: rgb(255, 255, 255);
@@ -42,8 +39,8 @@ export const HeaderStyle = styled.header`
     }
 
     .red {
-        border-bottom: 3px solid red;
-        margin-top: -5px;
+        border-bottom: 3px solid #d3d3d3;
+        margin-top: -3px;
     }
 
     

@@ -11,7 +11,11 @@ export default createGlobalStyle`
         text-decoration: none;
     }
 
+    body {
+        background-color: #d3d3d3;
+    }
 
+    
     button {
         cursor: pointer;
     }
