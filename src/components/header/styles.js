@@ -8,7 +8,7 @@ export const HeaderStyle = styled.header`
     -webkit-box-shadow: 0px 8px 5px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 0px 8px 5px 0px rgba(255,255,255,0.75);
 
-    h1 {
+    .logo {
         color: rgb(255, 255, 255);
         justify-self: flex-start;
         cursor: pointer;
@@ -21,13 +21,13 @@ export const HeaderStyle = styled.header`
         text-decoration: none;
     }
 
-    nav {
+    .nav-header {
         display: none;
     }
 
-    button {
+    .button-header {
         margin-left: auto;
-        margin-right: 10px;
+        margin-right: 40px;
         width: 40px;
         height: 30px;
         margin-top: 26px;
@@ -48,24 +48,24 @@ export const HeaderStyle = styled.header`
 
     
     @media (min-width:900px) {
-        button {
+        .button-header {
             display: none;
         }
         
-        nav {
+        .nav-header {
             display: flex;
             width: 100%;
             margin-left: 5%;
             margin-right: 5%;
         }
 
-        ul {
+        .ul-header {
             display: flex;
             justify-content: space-between;
             width: 100%;
         }
 
-        a {
+        .link-header {
             height: 30px;
             color: #fff;
             text-align: center;
@@ -74,27 +74,36 @@ export const HeaderStyle = styled.header`
             margin-right: 5%;
         }
 
-        li {
+        .li-about {
+            width: 50px;
             text-align: center;
             margin-left: auto;
             margin-right: auto;
             height: 28px;
         }
 
-        .li-about {
-            width: 50px;
-        }
-
         .li-tech {
             width: 100px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            height: 28px;
         }
 
         .li-quali {
             width: 110px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            height: 28px;
         }
 
         .li-pro {
             width: 70px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            height: 28px;
         }
     }
 `
