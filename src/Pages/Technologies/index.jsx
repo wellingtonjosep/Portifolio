@@ -13,7 +13,7 @@ function Technologies () {
         <div>
         <Header page="Technologies"/>
         <Main>
-            <h2 className="title-tech">TECNOLOGIAS</h2>
+            <h2 className="title-tech">Tecnologias</h2>
             <section className="container-tech">
                 {
                     info.map((technologie, index) => {
