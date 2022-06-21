@@ -34,6 +34,7 @@ export const Main = styled.div`
         margin-top: 50px;
         text-align: center;
         font-size: 27px;
+        font-family: 'Inter';
     }
 
     @media (min-width: 450px) {

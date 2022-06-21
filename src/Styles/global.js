@@ -9,10 +9,11 @@ export default createGlobalStyle`
         padding: 0px;
         list-style-type: none;
         text-decoration: none;
+        font-family: 'Inter';
     }
 
     body {
-        background-color: #d3d3d3;
+        background-color: #fff;
     }
 
     

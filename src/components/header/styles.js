@@ -16,6 +16,8 @@ export const HeaderStyle = styled.header`
         margin-left: 24px;
         font-weight: bold;
         text-decoration: none;
+        font-family: 'Inter';
+        font-weight: 700;
     }
 
     .nav-header {
@@ -77,6 +79,7 @@ export const HeaderStyle = styled.header`
             margin-left: auto;
             margin-right: auto;
             height: 28px;
+            font-family: 'Inter';
         }
 
         .li-tech {
@@ -85,6 +88,7 @@ export const HeaderStyle = styled.header`
             margin-left: auto;
             margin-right: auto;
             height: 28px;
+            font-family: 'Inter';
         }
 
         .li-quali {
@@ -93,6 +97,7 @@ export const HeaderStyle = styled.header`
             margin-left: auto;
             margin-right: auto;
             height: 28px;
+            font-family: 'Inter';
         }
 
         .li-pro {
@@ -101,6 +106,7 @@ export const HeaderStyle = styled.header`
             margin-left: auto;
             margin-right: auto;
             height: 28px;
+            font-family: 'Inter';
         }
     }
 `

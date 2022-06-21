@@ -37,7 +37,7 @@ export const TechnologiesProviders = ({ children }) => {
         {
             name: "PostgreSQL",
             description: "PostgreSQL: O primeiro contato que tive com o PostgreeSQL foi no quarto modulo da Kenzie Academy Brasil, foi a primeira experiência que tive operando com Banco de Dados.",
-            url: "https://a0.anyrgb.com/pngimg/1698/716/postgresql-logo-objectrelational-database-database-symbol-relational-model-relational-database-management-system-cms-the-logo-sql-postgresql-free-software.png"
+            url: "https://raw.githubusercontent.com/wellingtonjosep/Portifolio/developer/src/assets/icon_postgresql.png"
         },
         {
             name: "HTML",
