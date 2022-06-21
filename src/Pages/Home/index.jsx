@@ -1,7 +1,8 @@
 import Header from "../../components/header"
-import { Main } from "./styles"
 import iconProfile from "../../assets/icon_profile.png"
 import DescriptionJob from "../../components/DescriptionJob"
+
+import { Main } from "./styles"
 
 import css from "../../assets/icon_css.png"
 import javascript from "../../assets/icon_javascript.png"
@@ -32,7 +33,7 @@ function Home() {
                 <h2 className="name">Wellington José</h2>
                 <DescriptionJob/>
             </section>
-            <h4 className="sub-title-tech">Tecnologias que ja trabalhei</h4>
+            <h4 className="sub-title-tech">Tecnologias que já trabalhei</h4>
             <section className="container-icons">
                 <img className="icon-tech" src={javascript} alt="logo do javascript" />
                 <img className="icon-tech" src={react} alt="logo do react" />

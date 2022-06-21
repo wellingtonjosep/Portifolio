@@ -1,9 +1,10 @@
 import Li from "../Li"
 import Button from "../Button"
 
-import { Container } from "./styles"
 import { AiOutlineBars } from "react-icons/ai"
 import { Link } from "react-router-dom"
+
+import { Container } from "./styles"
 
 function Modal ({page, setModal}) {
     return (

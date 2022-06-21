@@ -1,6 +1,7 @@
 import Header from "../../components/header"
-import { Main } from "./styles"
 import DescriptionJob from "../../components/DescriptionJob";
+
+import { Main } from "./styles"
 
 function About () {
     return (

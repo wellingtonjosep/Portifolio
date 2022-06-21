@@ -1,11 +1,27 @@
+import { useContext } from "react"
 import Header from "../../components/header"
+import Information from "../../components/Information"
+import { TechnologiesContext } from "../../Providers/technologies"
+
+import { Main } from "./styles"
+
 function Technologies () {
+
+    const { info } = useContext(TechnologiesContext)
+
     return (
         <div>
         <Header page="Technologies"/>
-        <section>
-        <img className="image-header" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47nz9mcctj8u98yr4yt0g3aepn10ow0kluzubynn0i&rid=giphy.gif&ct=g" alt="gif-universo"/>
-        </section>
+        <Main>
+            <h2 className="title-tech">TECNOLOGIAS</h2>
+            <section className="container-tech">
+                {
+                    info.map((technologie, index) => {
+                        return <Information className={"tech-article"} img={"tech"} p={"tech-name"} key={index} technologie={technologie}/>
+                    })
+                }
+            </section>
+        </Main>
         </div>
     )
 }

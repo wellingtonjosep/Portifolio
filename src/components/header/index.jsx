@@ -1,11 +1,13 @@
 import Button from "../Button"
 import Li from "../Li";
 import Modal from "../Modal";
-import { HeaderStyle } from "./styles"
+
 import { Link } from "react-router-dom"
 import { useHistory } from "react-router-dom";
 import { useState } from "react";
 import { AiOutlineBars } from "react-icons/ai"
+
+import { HeaderStyle } from "./styles"
 
 function Header ({ page }) {
     const [modal, setModal] = useState(false)

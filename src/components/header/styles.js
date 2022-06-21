@@ -39,7 +39,7 @@ export const HeaderStyle = styled.header`
     }
 
     .red {
-        border-bottom: 3px solid #d3d3d3;
+        border-bottom: 3px solid rgb(255, 0, 0);
         margin-top: -3px;
     }
 

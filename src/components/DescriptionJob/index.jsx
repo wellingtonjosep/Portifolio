@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+
 import { Description } from "./styles"
 
 function DescriptionJob() {
