@@ -17,7 +17,7 @@ function About () {
                     <DescriptionJob/>
                 </article>
                 <article className="about">
-                    <h3 className="name-about">SOBRE MIM</h3>
+                    <h3 className="name-about">Sobre mim</h3>
                     <p className="first-part">Gosto de Programar desde os meus 15 anos, 
                     mas conheci a programação muito antes.</p>
                     <p className="second-part">Sou muito criativo e gosto muito de realizar meus

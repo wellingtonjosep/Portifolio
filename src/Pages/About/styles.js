@@ -28,6 +28,7 @@ export const Main = styled.section`
         padding-top: 40px;
         text-align: center;
         font-size: 27px;
+        font-family: 'Inter';
     }
 
     .name-job {
@@ -50,6 +51,7 @@ export const Main = styled.section`
         color: rgb(255,0,0);
         margin-top: 25px;
         margin-bottom: 25px;
+        font-family: 'Inter';
     }
 
     .sub-title {
@@ -63,19 +65,17 @@ export const Main = styled.section`
     @media (min-width: 768px) {
         display: flex;
         justify-content: center;
-        .container-image {
-
-        }
-
-        .image {
-
+        .name {
+            font-size: 28px;
         }
 
         .container-main {
             display: flex;
             margin-top: 90px;
             background-color: rgb(0,0,0,0.2);
-            height: 320px;
+            height: 340px;
+            width: 100%;
+            max-width: 600px;
             padding: 5px;
             border-radius: 15px;
             box-shadow: 1px 3px 48px 0px rgba(0,0,0,0.75);
@@ -85,7 +85,7 @@ export const Main = styled.section`
 
         .about {
             text-align: left;
-            margin-left: 50px;
+            margin-left: 40px;
             margin-top: 13px;
         }
     }
