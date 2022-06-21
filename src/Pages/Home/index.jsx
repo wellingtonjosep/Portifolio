@@ -1,6 +1,9 @@
 import Header from "../../components/header"
 import iconProfile from "../../assets/icon_profile.png"
 import DescriptionJob from "../../components/DescriptionJob"
+import Button from "../../components/Button"
+import { TechnologiesContext } from "../../Providers/technologies"
+import { useContext } from "react"
 
 import { Main } from "./styles"
 

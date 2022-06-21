@@ -3,6 +3,7 @@ import { createContext, useState } from "react";
 export const TechnologiesContext = createContext([]);
 
 export const TechnologiesProviders = ({ children }) => {
+    const [isOpen, setIsOpen] = useState(false)
     const [info, setInfo] = useState([
         {
             name: "JavaScript",
@@ -55,9 +56,10 @@ export const TechnologiesProviders = ({ children }) => {
             url: "https://raw.githubusercontent.com/wellingtonjosep/Portifolio/main/src/assets/icon_git.png"
         }
     ])
+
     return (
         <TechnologiesContext.Provider
-          value={{ info }}
+          value={{ isOpen, setIsOpen, info }}
         >
           {children}
         </TechnologiesContext.Provider>

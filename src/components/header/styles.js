@@ -45,6 +45,21 @@ export const HeaderStyle = styled.header`
         margin-top: -3px;
     }
 
+    .link {
+        background-color: rgb(51,0,0,0.5);
+        border-radius: 25px;
+        padding: 6px;
+        position: fixed;
+        left: 10px;
+        bottom: 10px;
+        border: 1px solid #000;
+        z-index: 1;
+    }
+
+    .image-link {
+        width: 35px;
+    }
+
     
     @media (min-width:900px) {
         .button-header {

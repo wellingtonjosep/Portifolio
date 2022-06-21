@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const Main = styled.section`
+    margin-bottom: 75px;
 
     .container-certificate {
         text-align: center;
@@ -34,10 +35,6 @@ export const Main = styled.section`
         margin-bottom: 10px;
         border-radius: 5px;
         color: rgb(0,0,0);
-    }
-
-    .container-experiences {
-        
     }
 
     .title-experiences {

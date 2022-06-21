@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 
 export const Main = styled.section`
-
+    margin-bottom: 75px;
+    
     .title-projects {
         text-align: center;
         margin-top: 31px;

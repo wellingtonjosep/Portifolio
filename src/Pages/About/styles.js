@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Main = styled.section`
     text-align: center;
+    margin-bottom: 75px;
 
     .Container-image {
         position: relative;
