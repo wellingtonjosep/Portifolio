@@ -1,8 +1,6 @@
 import styled from "styled-components"
 
 export const Main = styled.section`
-    background-color: #d3d3d3;
-    height: 100vh;
     text-align: center;
 
     .Container-image {
@@ -43,15 +41,53 @@ export const Main = styled.section`
         width: 320px;
         margin-left: auto;
         margin-right: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .name-about {
+        font-size: 30px;
+        color: rgb(255,0,0);
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .sub-title {
-        margin-top: 25px;
         margin-bottom: 10px;
     }
 
     .first-part {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        .container-image {
+
+        }
+
+        .image {
+
+        }
+
+        .container-main {
+            display: flex;
+            margin-top: 90px;
+            background-color: rgb(0,0,0,0.2);
+            height: 320px;
+            padding: 5px;
+            border-radius: 15px;
+            box-shadow: 1px 3px 48px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 1px 3px 48px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 3px 48px 0px rgba(0,0,0,0.75);
+        }
+
+        .about {
+            text-align: left;
+            margin-left: 50px;
+            margin-top: 13px;
+        }
     }
 
 `
