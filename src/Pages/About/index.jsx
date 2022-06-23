@@ -3,6 +3,8 @@ import DescriptionJob from "../../components/DescriptionJob";
 
 import { Main } from "./styles"
 
+import perfil from "../../assets/perfil.png"
+
 function About () {
     return (
         <div>
@@ -11,7 +13,7 @@ function About () {
             <section className="container-main">
                 <article>
                     <section className="container-image">
-                        <img className="image" src="https://media-exp2.licdn.com/dms/image/C4D03AQEpqGUjNJPBqg/profile-displayphoto-shrink_800_800/0/1641216314077?e=1661385600&v=beta&t=asvmSu_aNfWtkpyWHm6V1e2AnPMU2Hm_PLpYsthT02c" alt="foto perfil" />
+                        <img className="image" src={perfil} alt="foto perfil" />
                     </section>
                     <h2 className="name">Wellington José</h2>
                     <DescriptionJob/>

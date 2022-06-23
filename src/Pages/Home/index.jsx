@@ -19,6 +19,7 @@ import node from "../../assets/icon_nodejs.png"
 import server from "../../assets/icon_server.png"
 import web from "../../assets/icon_web.png"
 import git from "../../assets/icon_git.png"
+import perfil from "../../assets/perfil.png"
 
 function Home() {
 
@@ -28,7 +29,7 @@ function Home() {
         <Main>
             <section>
                 <section className="container-image">
-                    <img className="image" src="https://media-exp2.licdn.com/dms/image/C4D03AQEpqGUjNJPBqg/profile-displayphoto-shrink_800_800/0/1641216314077?e=1661385600&v=beta&t=asvmSu_aNfWtkpyWHm6V1e2AnPMU2Hm_PLpYsthT02c" alt="foto perfil" />
+                    <img className="image" src={perfil} alt="foto perfil" />
                     <img className="icon-header" src={iconProfile} alt="icone de um computador" />
                     <img className="icon-server" src={web} alt="foto de um site" />
                     <img className="icon-web" src={server} alt="foto de um servidor" />

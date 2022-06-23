@@ -14,7 +14,7 @@ export const Main = styled.section`
     .image {
         width: 160px;
         margin-top: 25px;
-        border-radius: 50%;
+        border-radius: 25px;
     }
 
     .icon-header {
@@ -74,7 +74,7 @@ export const Main = styled.section`
             display: flex;
             margin-top: 90px;
             background-color: rgb(0,0,0,0.2);
-            height: 340px;
+            height: 440px;
             width: 100%;
             max-width: 600px;
             padding: 5px;

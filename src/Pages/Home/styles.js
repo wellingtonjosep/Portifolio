@@ -15,7 +15,7 @@ export const Main = styled.section`
     .image {
         width: 160px;
         margin-top: 25px;
-        border-radius: 50%;
+        border-radius: 25px;
     }
 
     .icon-header {
