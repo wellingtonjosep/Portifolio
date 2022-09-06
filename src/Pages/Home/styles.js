@@ -1,4 +1,9 @@
-import styled from "styled-components"
+import styled, {keyframes} from "styled-components"
+export const animation = keyframes`
+    from{border-left: 5px solid #000;}
+    to{border-left: 0px solid #000;}
+    from{border-right: 5px solid #000;}
+`
 
 export const Main = styled.section`
     text-align: center;
@@ -9,13 +14,14 @@ export const Main = styled.section`
         width: 210px;
         margin-left: auto;
         margin-right: auto;
-
+        
     }
 
     .image {
         width: 160px;
         margin-top: 25px;
         border-radius: 25px;
+        padding: 5px;
     }
 
     .icon-header {

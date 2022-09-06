@@ -4,6 +4,7 @@ import DescriptionJob from "../../components/DescriptionJob";
 import { Main } from "./styles"
 
 import perfil from "../../assets/perfil.png"
+import Waves from "../../components/Waves";
 
 function About () {
     return (
@@ -32,6 +33,7 @@ function About () {
                 </article>
             </section>
         </Main>
+        <Waves/>
         </div>
     )
 }

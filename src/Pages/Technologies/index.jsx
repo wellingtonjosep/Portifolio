@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import Header from "../../components/header"
 import Information from "../../components/Information"
+import Waves from "../../components/Waves"
 import { TechnologiesContext } from "../../Providers/technologies"
 
 import { Main } from "./styles"
@@ -22,6 +23,7 @@ function Technologies () {
                 }
             </section>
         </Main>
+        <Waves/>
         </div>
     )
 }

@@ -1,9 +1,6 @@
 import Header from "../../components/header"
 import iconProfile from "../../assets/icon_profile.png"
 import DescriptionJob from "../../components/DescriptionJob"
-import Button from "../../components/Button"
-import { TechnologiesContext } from "../../Providers/technologies"
-import { useContext } from "react"
 
 import { Main } from "./styles"
 
@@ -20,6 +17,7 @@ import server from "../../assets/icon_server.png"
 import web from "../../assets/icon_web.png"
 import git from "../../assets/icon_git.png"
 import perfil from "../../assets/perfil.png"
+import Waves from "../../components/Waves"
 
 function Home() {
 
@@ -50,6 +48,7 @@ function Home() {
                 <img className="icon-tech" src={node} alt="logo do nodejs" />
                 <img className="icon-tech" src={git} alt="logo do GitHub" />
             </section>
+            <Waves/>
         </Main>
         </div>
     )

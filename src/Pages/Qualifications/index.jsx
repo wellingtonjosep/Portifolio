@@ -1,9 +1,9 @@
 import Header from "../../components/header"
-import motion from "framer-motion"
 
 import certificate from "../../assets/certificado_Front-end.png"
 
 import { Main } from "./styles"
+import Waves from "../../components/Waves"
 function Qualifications () {
     return (
         <div>
@@ -25,6 +25,7 @@ function Qualifications () {
                     <p className="time-experiences">mar de 2019 - abr de 2020 · 1 ano 2 meses</p>
                 </section>
             </article>
+            <Waves/>
         </Main>
         </div>
     )

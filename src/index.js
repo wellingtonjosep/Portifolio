@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom"
 import { TechnologiesProviders } from './Providers/technologies';
-
+import { ProjectProviders } from './Providers/projects';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <TechnologiesProviders>
-        <App />
+        <ProjectProviders>
+          <App />
+        </ProjectProviders>
       </TechnologiesProviders>
     </BrowserRouter>
   </React.StrictMode>
